@@ -1,0 +1,16 @@
+let a=10;
+console.log(typeof a);
+let b=String(a);
+console.log(typeof b);
+const name="renuka";
+console.log(typeof name);
+const newGame=new String("cricket");
+console.log(newGame[0]);
+console.log(newGame.length);
+console.log(newGame.toUpperCase());
+console.log(newGame.toLowerCase());
+console.log(newGame.includes("cric"));
+console.log(newGame.includes("ball"));
+console.log(newGame.slice(0,4));
+console.log(newGame.slice(4));
+console.log(newGame.split("i"));
